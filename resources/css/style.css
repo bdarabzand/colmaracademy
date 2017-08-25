@@ -81,6 +81,11 @@ header .content ul{
    padding: 0 1rem;
 }
 
+#mobile-nav li img{
+    width: 2rem;
+    height: 2rem;
+}
+
 }
 
 /* header section mobile */
@@ -93,9 +98,17 @@ header .content ul{
     font-weight: bold;
 }
 
-#logo img{
-    width: 1.5rem;
-    height: 1.5rem;
+#logo h1{
+    display: none;
 }
+
+#mobile-nav{
+    justify-content: space-around;
+}
+
+ #mobile-nav li img{
+     width: 2rem;
+     height: 2rem;
+ }
 
 }
