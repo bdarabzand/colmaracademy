@@ -17,6 +17,7 @@ body{
     width: 100%;
     height: auto;
     display: flex;
+    margin: auto;
 }
 
 /* header section desktop */
@@ -118,15 +119,16 @@ header .content ul{
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
     background-color: #C2C2C2;
     padding: 2 rem 1.5rem;
 }
 
-.banner .image-holder{
-    width: 60%;
-    margin: 2rem 1.5rem;
-    background-image: url("../resources/images/banner.jpg");
+.banner img{
+    display: flex;
+    width: 99%;
+    height: auto;
+    margin: 2rem;
+
 }
 
 .banner h1{
@@ -134,14 +136,14 @@ header .content ul{
     font-weight: bold;
     text-align: center;
     color: #4a4a4a;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 .banner h2{
     font-size: 2rem;
     text-align: center;
     color: #4a4a4a;
-    margin-bottom: 2rem;
+    margin: 2rem;
     line-height: 1.2;
 }
 
@@ -155,5 +157,5 @@ header .content ul{
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-left: 5.5rem;
+    margin: 0 5rem 2rem 5rem;
 }
