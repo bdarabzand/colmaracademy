@@ -110,6 +110,7 @@ header .content ul{
  #mobile-nav li img{
      width: 2rem;
      height: 2rem;
+     margin-right: 2rem;
  }
 }
 
@@ -158,4 +159,34 @@ header .content ul{
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0 5rem 2rem 5rem;
+}
+
+@media only screen and (max-width: 930px){
+
+.banner{
+    flex-direction: column;
+    padding-right: 3rem;
+}
+
+@media only screen and (max-width: 530px){
+.banner h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 2rem;
+}
+
+.banner h2{
+    font-size: 1rem;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 2rem;
+    line-height: 1.2;
+}
+
+.btn{
+    margin: 0 3rem 1rem 3rem;
+}
+
 }
