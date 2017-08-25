@@ -1,4 +1,4 @@
-/* universal style */
+﻿/* universal style */
 
 html {
     font-family: "Roboto", sans-serif;
@@ -110,5 +110,50 @@ header .content ul{
      width: 2rem;
      height: 2rem;
  }
+}
 
+/* banner section */
+
+.banner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C2C2C2;
+    padding: 2 rem 1.5rem;
+}
+
+.banner .image-holder{
+    width: 60%;
+    margin: 2rem 1.5rem;
+    background-image: url("../resources/images/banner.jpg");
+}
+
+.banner h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+}
+
+.banner h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4A4A4A;
+    height: 2rem;
+    width: 70%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5.5rem;
 }
