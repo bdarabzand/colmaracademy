@@ -7,7 +7,6 @@ html {
 
 body{
     width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -417,3 +416,39 @@ html{
 }
 
 /* thesis section */
+
+.manner .practice{
+    margin: 0;
+}
+
+.practice video{
+    background-color: #c2c2c2;
+    margin: 1rem 0;
+}
+
+.manner .orientation{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    }
+
+.manner #p003{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2C2C2;
+}
+
+
+.manner #p002{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+ .orientation #p003 h2, .orientation #p002 h2  {
+     font-size: 1rem;
+ }
