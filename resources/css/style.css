@@ -211,7 +211,6 @@ header .content ul{
 
 .main{
     display: flex;
-    display: -ms-flexbox;
 }
 
 .practice {
@@ -235,12 +234,6 @@ header .content ul{
 .main p{
     font-size: 1.2rem;
     line-height: 1.2;
-}
-
-.orientation{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 40%;
 }
 
 #p001, #p002 {
@@ -417,38 +410,24 @@ html{
 
 /* thesis section */
 
-.manner .practice{
-    margin: 0;
-}
-
 .practice video{
     background-color: #c2c2c2;
     margin: 1rem 0;
 }
 
-.manner .orientation{
+.orientation{
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    }
-
-.manner #p003{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin-top: 1rem;
     justify-content: center;
-    background-color: #C2C2C2;
 }
 
-
-.manner #p002{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    margin: 1rem 0;
+#o001 h2{
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
- .orientation #p003 h2, .orientation #p002 h2  {
-     font-size: 1rem;
- }
+#o001 p{
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
