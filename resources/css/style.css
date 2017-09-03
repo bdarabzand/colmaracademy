@@ -133,7 +133,7 @@ header .content ul{
 }
 
 .text-holder{
-    flex-basis: 40%;
+    flex-basis: 60%;
 }
 
 .banner h1{
@@ -356,15 +356,21 @@ div.container{
 
 #l001{
     background-color: white;
-    margin: 0 1rem;
+    margin: 0 .5rem;
     line-height: 1.3;
 }
 
+
 @media only screen and (max-width: 1120px) {
-    .col-sm-4 img{
-        width: 250px;
-        height: 125px;
+.col-sm-4 img{
+    width: 250px;
+    height: 125px;
     }
+
+#l001{
+    width: 250px;
+    height: 125px;
+}
 
 }
 
@@ -521,5 +527,44 @@ html{
     height: 15rem;
     margin: 0 2.5rem 0 0;
     }
+}
+
+/* footer section */
+
+footer{
+    width: 100%;
+    height: 50px;
+}
+
+.final-desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+
+.final-desktop ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.final-desktop li{
+     margin: 0 2rem;
+}
+
+.footer-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 625px){
+footer{
+        display: none;
+    }
+
+.footer-mobile{
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+}
 
 }
