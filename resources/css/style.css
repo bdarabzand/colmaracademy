@@ -37,6 +37,10 @@ body{
     font-weight: bold;
 }
 
+#logo h1{
+    font-family: Vollkorn, sans-serif;
+}
+
 #logo span{
     color: #7a7a7a;
     font-weight: normal;
@@ -137,6 +141,7 @@ header .content ul{
 }
 
 .banner h1{
+    font-family: Vollkorn, sans-serif;
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
@@ -145,6 +150,7 @@ header .content ul{
 }
 
 .banner h2{
+    font-family: Vollkorn, sans-serif;
     font-size: 2rem;
     text-align: center;
     color: #4a4a4a;
@@ -160,6 +166,7 @@ header .content ul{
     height: 2rem;
     width: 70%;
     color: #fff;
+    font-family: Vollkorn, sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0 5rem 2rem 5rem;
@@ -219,15 +226,18 @@ header .content ul{
 }
 
 .main h1{
+    font-family: Vollkorn, sans-serif;
     font-size: 3rem;
 }
 
 .main h2{
+    font-family: Vollkorn, sans-serif;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .main h3{
+    font-family: Vollkorn, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -330,6 +340,7 @@ div.container{
 }
 
 .learn h1{
+    font-family: Vollkorn, sans-serif;
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
@@ -337,12 +348,14 @@ div.container{
 }
 
 .learn h2{
+    font-family: Vollkorn, sans-serif;
     font-size: 2rem;
     font-weight: bold;
     margin:  0;
 }
 
 .learn h3{
+    font-family: Vollkorn, sans-serif;
     font-size: 1.7rem;
     margin: 1rem 0;
     color: #575757;
@@ -415,6 +428,7 @@ html{
 }
 
 .thesis h2{
+    font-family: Vollkorn, sans-serif;
     font-size: 1.7rem;
     font-weight: bold;
 }
@@ -453,6 +467,7 @@ html{
 }
 
 .mega h2{
+    font-family: Vollkorn, sans-serif; 
     font-size: 1.7rem;
     font-weight: bold;
 }
