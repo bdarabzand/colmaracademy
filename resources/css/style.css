@@ -276,7 +276,7 @@ header .content ul{
     color: #4E8FE4;
 }
 
-@media only screen and (max-width: 1055px){
+@media only screen and (max-width: 1200px){
 
 .practice{
     display: none;
@@ -349,35 +349,22 @@ div.container{
 }
 
 .learn p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin: 1rem 0;
     color: #575757;
 }
 
 #l001{
     background-color: white;
-    margin: 0 .5rem;
+    margin: 0 2rem;
     line-height: 1.3;
 }
 
 
-@media only screen and (max-width: 1120px) {
-.col-sm-4 img{
-    width: 250px;
-    height: 125px;
-    }
-
-#l001{
-    width: 250px;
-    height: 125px;
-}
-
-}
-
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 1200px) {
 
 .col-sm-4{
-       display: none;
+    display: none;
     }
 
 .learn{
@@ -393,7 +380,6 @@ div.container{
     background-color: #c2c2c2;
     border: 2.5px solid white;
 }
-
 }
 
 @media only screen and (max-width: 360px){
@@ -484,6 +470,17 @@ html{
  .mega{
      display: none;
  }
+
+ .thesis{
+    display: none;
+}
+
+ .thesis-mobile video{
+     display: inline;
+    width: 32rem;
+    height: 20rem;
+    margin: 0 7rem;
+}
 }
 
 @media only screen and (max-width: 670px) {
@@ -516,7 +513,7 @@ html{
     display: inline;
     width: 20rem;
     height: 15rem;
-    margin-right: 3rem;
+
 }
 }
 
@@ -525,7 +522,7 @@ html{
     display: inline;
     width: 20rem;
     height: 15rem;
-    margin: 0 2.5rem 0 0;
+    margin: 0 1rem 0 0;
     }
 }
 
@@ -564,7 +561,7 @@ footer{
 .footer-mobile{
     display: block;
     text-align: center;
-    margin: 1rem 0;
+    margin:2rem 1rem;
 }
 
 }
