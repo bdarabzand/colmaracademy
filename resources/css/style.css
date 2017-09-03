@@ -410,24 +410,116 @@ html{
 
 /* thesis section */
 
-.practice video{
+.thesis video{
+    width: 40rem;
+    height: 30rem;
     background-color: #c2c2c2;
     margin: 1rem 0;
 }
 
-.orientation{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    justify-content: center;
+.thesis {
+    flex-basis: 60%;
+    margin: 2rem 1.5rem;
 }
 
-#o001 h2{
+.thesis h2{
+    font-size: 1.7rem;
     font-weight: bold;
-    font-size: 1.5rem;
 }
 
-#o001 p{
+.thesis p{
+    font-size: 1.2rem;
     line-height: 1.2;
-    font-size: 1.25rem;
+}
+
+#o002 {
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+    background-color: #FFFFFF;
+}
+
+#o001 {
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem 0;
+    background-color: #C2C2C2;
+}
+
+#o001 .text{
+    margin: 1rem 1rem;
+}
+
+#o002 .text{
+    margin: 1rem 1rem;
+}
+
+.mega h2{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.mega p{
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+.thesis-mobile video{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+ .mega{
+     display: none;
+ }
+}
+
+@media only screen and (max-width: 670px) {
+
+.thesis video{
+    display: none;
+}
+
+ .thesis h2, .thesis p{
+     display: none;
+ }
+
+.thesis-mobile video{
+    display: inline;
+    width: 25rem;
+    height: 17.5rem;
+    margin: 0 7rem;
+}
+}
+
+@media only screen (max-width: 620px){
+   .thesis-mobile video{
+       margin-right: 6rem;
+   }
+
+}
+
+@media only screen (max-width: 550px){
+ .thesis-mobile video{
+    display: inline;
+    width: 20rem;
+    height: 15rem;
+    margin-right: 3rem;
+}
+}
+
+@media only screen and (max-width: 360px){
+   .thesis-mobile video{
+    display: inline;
+    width: 20rem;
+    height: 15rem;
+    margin: 0 2.5rem 0 0;
+    }
+
 }
