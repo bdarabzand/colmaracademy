@@ -467,7 +467,7 @@ html{
 }
 
 .mega h2{
-    font-family: Vollkorn, sans-serif; 
+    font-family: Vollkorn, sans-serif;
     font-size: 1.7rem;
     font-weight: bold;
 }
@@ -579,4 +579,10 @@ footer{
     margin:2rem 1rem;
 }
 
+}
+
+/* social media section */
+
+.social{
+    text-align: center;
 }
