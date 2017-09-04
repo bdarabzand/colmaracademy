@@ -11,6 +11,7 @@ body{
     padding: 0px;
     overflow-x: hidden;
     border: 1px solid #c2c2c2;
+    background-color: #E9F1FC;
 }
 
 .container{
@@ -227,7 +228,7 @@ header .content ul{
 
 .main h1{
     font-family: Vollkorn, sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .main h2{
